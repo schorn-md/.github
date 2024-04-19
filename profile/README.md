@@ -1,4 +1,4 @@
-# <a href="https://schorn.md/"><img src="./images/banner.png" alt="schorn. banner" style="border-radius:8px"></a>
+# <a href="https://schorn.md/"><img src="https://raw.githubusercontent.com/schorn-md/.github/main/profile/images/banner.png" alt="schorn. banner" style="border-radius:8px"></a>
 
 Hello! This is the official GitHub organization of `schorn.`!  
 This profile might seem empty, but there's a lot happening here :)
