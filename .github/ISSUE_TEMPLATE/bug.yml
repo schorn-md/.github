@@ -1,0 +1,42 @@
+name: "Bug"
+description: "Report a bug"
+title: "Bug: "
+labels:
+  - bug
+
+body:
+  - type: textarea
+    id: reproduction-steps
+    validations:
+      required: true
+    attributes:
+      label: "Reproduction steps"
+      description: "Step by step instructions on how the bug is triggered"
+      placeholder: |
+        1. do this
+        2. do that
+        3. ...
+
+  - type: textarea
+    id: expected-behavior
+    validations:
+      required: true
+    attributes:
+      label: "Expected behavior"
+      description: "What is supposed to happen?"
+      placeholder: "It should ..."
+  
+  - type: textarea
+    id: actual-behavior
+    validations:
+      required: true
+    attributes:
+      label: "Actual behavior"
+      description: "What happened instead?"
+      placeholder: "It actually ..."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      placeholder: "Uses XY ..."

@@ -1,0 +1,38 @@
+name: "Commission"
+description: "Create a commission issue"
+title: "Commission: "
+labels:
+  - commission
+
+body:
+  - type: textarea
+    id: todo
+    validations:
+      required: true
+    attributes:
+      label: "Todo"
+      value: |
+        - [ ] Create and Share Estimate
+        - [ ] Create and Share Invoice
+        - [ ] Create Time Plan
+        - [ ] Create Repository
+          - [ ] Create branches: `main`, `development`
+          - [ ] Create Pipeline for release
+        - [ ] Deliver Work
+  
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      placeholder: "Use XY ..."
+  
+  - type: textarea
+    id: estimate
+    attributes:
+      label: Estimate
+      value: |
+        | Task | Expected Duration | Actual Duration | Notes |
+        | --- | --- | --- | --- |
+        | Task 1 | 01:00 | | |
+        | | | | | 
+        | **Total** | 01:00 | | `1 * RATE = TOTAL`, `1 day`|
